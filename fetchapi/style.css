@@ -1,0 +1,137 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #6095f7, #d7e3fc);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.amount{
+font-size: xx-large;
+  font-weight: bold;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px ;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 360px;
+  text-align: center;
+  
+}
+
+h1 {
+  font-size: 26px;
+  color: #444;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+form p {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 6px;
+  text-align: left;
+}
+
+.amount input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #010101;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.amount input:hover{
+  background-color: #050505;
+  color: aliceblue;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.select {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #f1f3f5;
+  padding: 8px 12px;
+  border-radius: 10px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.select img {
+  width: 36px;
+  height: 24px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.select select {
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  outline: none;
+}
+
+.msg {
+  margin-top: 12px;
+  margin-bottom: 18px;
+  font-weight: bold;
+  color: #008080;
+}
+
+button {
+  width: 100%;
+  background-color: #008080;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #006666;
+  cursor: pointer;
+}
+.icon {
+  margin-bottom: 10px;
+}
+
+.icon img {
+  width: 64px;
+  height: 60px;
+}
+@media (max-width: 480px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  .amount {
+    font-size: large;
+  }
+
+  .select {
+    flex: 1 1 100%;
+  }
+
+  .icon img {
+    width: 56px;
+    height: 52px;
+  }
+}
